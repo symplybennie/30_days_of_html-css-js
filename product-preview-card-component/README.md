@@ -15,10 +15,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 
 ## Overview
-
 ### Screenshot
 
-![desktop screenshot](./images/screenshot%20(1).png)
+![desktop screenshot](./images/image-product-desktop.jpg)
 
 ## My process
 
@@ -30,8 +29,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### What I learned
 
-CSS FlexBox is a great way to position your elements.
-I also learnt about Markdown, because i needed to write this documentation
+CSS FlexBox is a great way to position your elements. 
+also learnt how to style my text using word-break, line-break and word-wrap
 
 
 ### Continued development

@@ -1,7 +1,6 @@
 # Frontend Mentor - 3-column preview card component solution
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -13,11 +12,10 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-## Overviehw
-
+## Overview
 ### Screenshot
 
-![desktop screenshot](./images/screenshot%20(1).png)
+![desktop screenshot](./images/)
 
 ## My process
 
@@ -29,8 +27,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### What I learned
 
-CSS FlexBox is a great way to position your elements.
-I also learnt about Markdown, because i needed to write this documentation
+CSS FlexBox is a great way to position your elements. 
+also learnt how to style my text using word-break, line-break and word-wrap
 
 
 ### Continued development
