@@ -17,7 +17,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Screenshot
 
-![desktop screenshot](./images/screenshot%20(1).png)
+![desktop screenshot](./design/desktop-preview.jpg)
 
 ## My process
 

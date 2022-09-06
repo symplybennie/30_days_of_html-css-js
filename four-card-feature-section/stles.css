@@ -1,0 +1,175 @@
+:root{
+    --lightGray: hsl(0, 0%, 93%) ;
+    --veryDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+     --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --gray: 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    width: 90vw;
+    height: 100vh;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--lightGray);
+    background-color: var(--lightGray);
+}
+.text{
+    margin: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.text h1{
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.text p{
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin: 5px;
+    white-space: pre-line;
+    display: inline;
+    opacity: 0.5;
+}
+.text .p1{
+    font-size: 30px;
+    font-weight: 0;
+}
+.boxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    column-gap: 15px;
+    overflow: hidden;
+}
+.boxContainer h1{
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0;
+}
+.boxContainer p{
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    white-space: pre-line;
+    display: inline;
+    opacity: 0.5;
+    margin-top: 0;
+    font-size: 12px;
+}
+.boxContainer img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: right;
+    margin: 40px auto 20px;
+}
+.box{
+    border: 2px solid var(--lightGray);
+    box-shadow: 5px 2px 4px var(--lightGray);
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    column-gap: 10px;
+    justify-content: flex-start;
+    margin: 10px;
+    text-align: left;
+    padding: 10px 30px 0;
+    position: relative;
+    border-radius: 4px;
+}
+.box::before{
+    content: "";
+    position: absolute;
+    border: 2px solid var(--Red);
+    width: 293px;
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    background-color: var(--Red);
+}
+.innerBox{
+    display: flex;
+    flex-flow: column wrap;
+    height: 450px;
+    row-gap: 15px;
+}
+.Box1 {
+    border: 2px solid var(--lightGray);
+    box-shadow: 2px 2px 5px var(--lightGray);
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 30px 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 4px;
+}
+.Box1::before{
+    content: "";
+    position: absolute;
+    border: 2px solid var(--Cyan);
+    width: 293px;
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    background-color: var(--Cyan);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+    display: block;
+    width: 60vw;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--lightGray);
+    background-color: var(--lightGray);
+    overflow: clip;
+    }
+    .boxContainer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    overflow: clip;
+    height: 100%;
+}
+    .box{
+        width: 250px;
+    }
+    .box::before{
+        width: 246px;
+    }
+    .Box1{
+        width: 250px;
+    }
+    .Box1::before{
+        width: 246px;
+    }
+    .boxContainer h1{
+        font-size: 20px;
+    }
+    .text .p1{
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+}
